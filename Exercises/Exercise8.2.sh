@@ -25,4 +25,3 @@ case $choice in
     4) zip "${file}.zip" "$file" ;; # om användaren väljer 4 så komprimera filen med zip
     *) echo "Ogiltigt val"; exit 1 ;; # om användaren väljer något annat än 1, 2, 3 eller 4 så skriv ut att det är ett ogiltigt val 
 esac 
-Exercise 3
