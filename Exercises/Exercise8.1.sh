@@ -1,7 +1,7 @@
 #!/bin/bash 
 read -p "Skriv in din ålder: " age # frågar användaren om ålder
 if ! [[ "$age" =~ ^[0-9]+$ ]]; then # om åldern inte är ett nummer
-echo "Ogiltig ålder. Ange ett nummer." # skriv ut att det är ogiltig ålder
+    echo "Ogiltig ålder. Ange ett nummer." # skriv ut att det är ogiltig ålder
     exit 1 
 fi #
 
